@@ -37,4 +37,4 @@ java -jar \
     -server \
     $JAVA_OPT \
     ${overrides[@]}\
-    eurekaserver-0.0.1-SNAPSHOT.jar
+    /eurekaserver/eurekaserver-0.0.1-SNAPSHOT.jar
