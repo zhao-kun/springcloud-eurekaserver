@@ -17,7 +17,6 @@ metadata:
 spec:
   selector:
     app: eureka
-  clusterIP: None
   ports:
   - port: 8761
     name: eureka
