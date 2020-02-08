@@ -4,7 +4,7 @@
 
 A spring cloud eureka server docker image which supports to change configuration via argument
 
-Leveraging following K8s spec, we could deploy springcloud eureka server in a Kubernetes cluste
+Leveraging following K8s spec, we could deploy springcloud eureka server in a Kubernetes cluster
 
 ```yaml
 ---
