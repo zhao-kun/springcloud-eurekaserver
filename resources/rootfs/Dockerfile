@@ -4,11 +4,10 @@ COPY     pom.xml /eurekaserver/pom.xml
 
 WORKDIR  /eurekaserver
 
-RUN 	 cd /eurekaserver/ && mvn dependency:go-offline -B
+#RUN 	 cd /eurekaserver/ && mvn dependency:go-offline -B
 
 COPY     src /eurekaserver/src
 COPY     resources /eurekaserver/resources
-
 RUN      mvn package
 
 FROM openjdk:8u171-jdk-slim
